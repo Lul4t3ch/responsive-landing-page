@@ -194,7 +194,7 @@ tfoot td, table th{
     min-height: 100vh;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: initial;
     align-items: center;
 }
 
@@ -421,5 +421,13 @@ body .full-width{
 
     .menu-spacing{
         display: none;
+    }
+
+    #pricing-content{
+        padding-top: 0;
+    }
+
+    h1, h2{
+        font-size: 4rem;
     }
 }
